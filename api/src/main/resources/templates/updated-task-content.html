@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        #outlook a {
+            padding: 0;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .ExternalClass * {
+            line-height: 100%;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        table,
+        td {
+            border-collapse: collapse;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+        }
+
+        p {
+            display: block;
+            margin: 13px 0;
+        }
+
+        a.button:link, a.button:visited {
+            background-color: #017bba;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a.button:hover, a.button:active {
+            background-color: #2f67f6;
+        }
+
+        #tblDetail>tbody>tr>td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+<div style="background-color:#f9f9f9;">
+
+
+    <!--[if mso | IE]>
+    <table
+            align="center" border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600"
+    >
+        <tr>
+            <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+    <![endif]-->
+
+
+    <div style="background:#f9f9f9;background-color:#f9f9f9;Margin:0px auto;max-width:600px;">
+
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+               style="background:#f9f9f9;background-color:#f9f9f9;width:100%;">
+            <tbody>
+            <tr>
+                <td style="border-bottom:#1b3368 solid 5px;direction:ltr;font-size:0px;padding:20px 0;text-align:center;vertical-align:top;">
+                    <!--[if mso | IE]>
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+
+                        <tr>
+
+                        </tr>
+
+                    </table>
+                    <![endif]-->
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+
+    <!--[if mso | IE]>
+    </td>
+    </tr>
+    </table>
+
+    <table
+            align="center" border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600"
+    >
+        <tr>
+            <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+    <![endif]-->
+
+
+    <div style="background:#fff;background-color:#fff;Margin:0px auto;max-width:600px;">
+
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+               style="background:#fff;background-color:#fff;width:100%;">
+            <tbody>
+            <tr>
+                <td style="border:#dddddd solid 1px;border-top:0px;direction:ltr;font-size:0px;padding:20px 0;text-align:center;vertical-align:top;"
+                    colspan="2">
+                    <!--[if mso | IE]>
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+
+                        <tr>
+
+                            <td
+                                    style="vertical-align:bottom;width:600px;"
+                            >
+                    <![endif]-->
+
+                    <div class="mj-column-per-100 outlook-group-fix"
+                         style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:bottom;width:100%;">
+
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                               style="vertical-align:bottom;" width="100%">
+
+                            <tr>
+                                <td align="left"
+                                    style="font-size:0px;padding:10px 25px;padding-bottom:0;word-break:break-word;">
+
+                                    <div style="font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;line-height:22px;text-align:left;color:#555;">
+                                        Chào <b>${receiverName}</b>,
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+
+                                    <div style="font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;line-height:22px;text-align:left;color:#555;">
+                                        Công việc <b>${taskName}</b> trong sự kiện <b>${eventCode}-${eventName}</b> đã có thay đổi bởi <b>${username}</b>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+
+                                    <div style="font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;line-height:22px;text-align:left;color:#555;">
+                                        <table id="tblDetail" style="border-collapse:collapse;width: 100%;border:1px solid black">
+                                            <tbody>
+                                            <tr>
+                                                <td style="width: 33.3333%;background-color: rgb(229, 197, 179); text-align: center;"><strong>Thuộc tính</strong></td>
+                                                <td style="width: 33.3333%;background-color: rgb(229, 197, 179); text-align: center;"><strong>Giá trị cũ</strong></td>
+                                                <td style="width: 33.3333%;background-color: rgb(229, 197, 179); text-align: center;"><strong>Giá trị mới</strong></td>
+                                            </tr>
+                                            <#if newTaskName?? && newTaskName != taskName>
+                                            <tr>
+                                                <td style="width: 33.3333%;">Tên công việc</td>
+                                                <td style="width: 33.3333%;">${taskName}</td>
+                                                <td style="width: 33.3333%;">${newTaskName}</td>
+                                            </tr>
+                                            </#if>
+                                            <#if newStartDate?? &&  newStartDate != startDate>
+                                            <tr>
+                                                <td style="width: 33.3333%;">Ngày bắt đầu</td>
+                                                <td style="width: 33.3333%;">${startDate}</td>
+                                                <td style="width: 33.3333%;">${newStartDate}</td>
+                                            </tr>
+                                        </#if>
+                                        <#if newEndDate?? && newEndDate!=endDate>
+                                            <tr>
+                                                <td style="width: 33.3333%;">Ngày kết thúc</td>
+                                                <td style="width: 33.3333%;">${endDate}</td>
+                                                <td style="width: 33.3333%;">${newEndDate}</td>
+                                            </tr>
+                        </#if>
+                        <#if newParentTaskName?? && newParentTaskName != parentTaskName>
+                                            <tr>
+                                                <td style="width: 33.3333%;">Công việc cha</td>
+                                                <td style="width: 33.3333%;">${parentTaskName}</td>
+                                                <td style="width: 33.3333%;">${newParentTaskName}</td>
+                                            </tr>
+            </#if>
+            <#if newTaskDescription?? && newTaskDescription != taskDescription>
+                                            <tr>
+                                                <td style="width: 33.3333%;">Mô tả</td>
+                                                <td style="width: 33.3333%;">${taskDescription}</td>
+                                                <td style="width: 33.3333%;">${newTaskDescription}</td>
+                                            </tr>
+        </#if>
+        <#if newProgress?? && newProgress != progress>
+                                            <tr>
+                                                <td style="width: 33.3333%;">Tiến độ</td>
+                                                <td style="width: 33.3333%;"><progress value="${progress}" max="100"></progress> ${progress}%</td>
+                                                <td style="width: 33.3333%;"><progress value="${newProgress}" max="100"></progress> ${newProgress}%</td>
+                                            </tr>
+    </#if>
+    <#if newStatus?? && newStatus != status>
+                                            <tr>
+                                                <td style="width: 33.3333%;">Trạng thái</td>
+                                                <td style="width: 33.3333%;">${status}</td>
+                                                <td style="width: 33.3333%;">${newStatus}</td>
+                                            </tr>
+</#if>
+<#if newAssigneeName?? && newStatus != assigneeName>
+                                            <tr>
+                                                <td style="width: 33.3333%;">Người nhận việc</td>
+                                                <td style="width: 33.3333%;">${assigneeName}</td>
+                                                <td style="width: 33.3333%;">${newAssigneeName}</td>
+                                            </tr>
+</#if>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+
+                        </table>
+
+                    </div>
+
+                    <!--[if mso | IE]>
+                    </td>
+
+                    </tr>
+
+                    </table>
+                    <![endif]-->
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+
+    <!--[if mso | IE]>
+    </td>
+    </tr>
+    </table>
+
+    <table
+            align="center" border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600"
+    >
+        <tr>
+            <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+    <![endif]-->
+
+
+    <!--[if mso | IE]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
+
+
+</div>
+</body>
+</html>
